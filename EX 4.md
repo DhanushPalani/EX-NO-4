@@ -15,12 +15,14 @@ Using socket connection is established between client and server.
 Get the IP address to be converted into MAC address.
 Send this IP address to server.
 Server returns the MAC address to client.
+
 ## Server:
 Start the program
 Accept the socket which is created by the client.
 Server maintains the table in which IP and corresponding MAC addresses are stored.
 Read the IP address which is send by the client.
 Map the IP address with its MAC address and return the MAC address to client.
+
 # PROGRAM:
 ## CLIENT:
 ```
